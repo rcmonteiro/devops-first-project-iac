@@ -10,7 +10,7 @@
 
 ## Comandos básicos do terraform
 
-- `terraform init`: Inicia o terraform, mas antes, crie o providers.tf
+- `terraform init`: Inicia o repositório local do terraform, mas antes, crie o providers.tf
 - `terraform validate`: Validar o comando, dos arquivos para criar resources
 - `terraform plan`: Conferir tudo que vai ocorrer com o que foi declarado para criação
 - `terraform plan --destroy`: ou destruição
