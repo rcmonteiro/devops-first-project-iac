@@ -19,3 +19,8 @@
 - `terraform apply --destroy`: para destruir os recursos
 
 > O `terraform plan` vai inclusive verificar o que foi feito diretamente via console, e indicar que o que foi feito por lá, será desfeito. o console precisa ser somente leitura, tudo precisa ser feito via IaC!
+
+## Trabalhando com workspaces
+
+- `terraform workspace new staging`: criando um workspace para staging
+- Podemos usar a variável `terraform.workspace` para nomear os recursos, desta forma cada recurso fica disponível exclusivamente no seu respectivo workspace, melhorando nossa camada de segurança para validar atualizações da nossa infra
