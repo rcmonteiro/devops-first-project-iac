@@ -7,4 +7,6 @@ terraform {
   }
 }
 
-provider "aws" {}
+provider "aws" {
+  profile = "rcmonteiro-iac"
+}
