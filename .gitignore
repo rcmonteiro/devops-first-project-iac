@@ -1,0 +1,3 @@
+# IaC
+.terraform
+.terraform.lock.hcl
