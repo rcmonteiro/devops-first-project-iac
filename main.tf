@@ -16,3 +16,12 @@ module "cloudfront" {
   }
   depends_on = [module.s3]
 }
+
+#module "sqs" {
+#  source     = "terraform-aws-modules/sqs/aws"
+#  name       = "devops-rocketseat-rcmonteiro-sqs"
+#  create_dlq = true
+#  tags = {
+#    IaC = true
+#  }
+#}
