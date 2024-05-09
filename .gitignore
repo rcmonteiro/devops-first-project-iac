@@ -1,5 +1,6 @@
 # IaC
-terraform.tfstate
-terraform.tfstate.backup
-.terraform
+**/.terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
 .terraform.lock.hcl
